@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Blog de Películas</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+
+    <div class="contacto1">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes alguna pregunta, sugerencia o recomendación de película? ¡Nos encantaría saber de ti! Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.</p>
+
+    </div>
+    <form action="/submit" method="post">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Correo Electrónico</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea name="message" id="message" rows="5" cols="20"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
